@@ -221,11 +221,11 @@
   #define E2_CS_PIN                         PE1
 #endif
 
-#define E3_STEP_PIN                         PE6   // MOTOR 7
-#define E3_DIR_PIN                          PA14
-#define E3_ENABLE_PIN                       PE0
-#ifndef E3_CS_PIN
-  #define E3_CS_PIN                         PD3
+#define Z3_STEP_PIN                         PE6   // MOTOR 7
+#define Z3_DIR_PIN                          PA14
+#define Z3_ENABLE_PIN                       PE0
+#ifndef Z3_CS_PIN
+  #define Z3_CS_PIN                         PD3
 #endif
 
 //

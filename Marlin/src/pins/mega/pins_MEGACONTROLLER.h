@@ -45,11 +45,11 @@
 //
 #define X_STEP_PIN                            2  // A8
 #define X_DIR_PIN                             3  // A9
-#define X_ENABLE_PIN                          61  // A7
+#define X_ENABLE_PIN                          0  // A7
 
 #define Y_STEP_PIN                            4  // A11
 #define Y_DIR_PIN                             5  // A12
-#define Y_ENABLE_PIN                          64  // A10
+#define Y_ENABLE_PIN                          0  // A10
 
 #define Z_STEP_PIN                            68  // A14
 #define Z_DIR_PIN                             69  // A15
@@ -65,3 +65,9 @@
 
 #define TEMP_0_PIN 0
 #define HEATER_0_PIN 0
+#define FAN_COUNT                           5
+#define FAN1_PIN 59
+#define FAN2_PIN 60
+#define FAN3_PIN 61
+#define FAN4_PIN 62
+#define FAN5_PIN 63

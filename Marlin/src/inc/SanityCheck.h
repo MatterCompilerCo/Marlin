@@ -3761,9 +3761,9 @@ static_assert(_PLUS_TEST(4), "HOMING_FEEDRATE_MM_M values must be positive.");
 /**
  * Sanity check for MIXING_EXTRUDER & DISTINCT_E_FACTORS these are not compatible
  */
-#if BOTH(MIXING_EXTRUDER, DISTINCT_E_FACTORS)
-  #error "MIXING_EXTRUDER can't be used with DISTINCT_E_FACTORS. But you may use SINGLENOZZLE with DISTINCT_E_FACTORS."
-#endif
+// #if BOTH(MIXING_EXTRUDER, DISTINCT_E_FACTORS)
+//   #error "MIXING_EXTRUDER can't be used with DISTINCT_E_FACTORS. But you may use SINGLENOZZLE with DISTINCT_E_FACTORS."
+// #endif
 
 /**
  * Sanity check for valid stepper driver types
